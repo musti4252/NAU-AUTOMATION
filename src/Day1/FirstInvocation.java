@@ -9,7 +9,7 @@ public class FirstInvocation {
     {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Musti\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver mustafa=new ChromeDriver();
-        mustafa.get("http://www.amazon.com");
+        mustafa.get("https://www.amazon.com/");
 
     }
 }
